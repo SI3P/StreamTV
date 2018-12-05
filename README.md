@@ -1,7 +1,7 @@
 # Stream TV
 A Multimodal Streaming Application.
 
-<img src="screenshot/stv.jpg?raw=true" width="600"/>
+<img src="screenshot/stv.jpg?raw=true" width="300"/>
 
 
 ## Server
