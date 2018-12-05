@@ -1,2 +1,8 @@
-# StreamTV
-A multimodal YouTube application
+# Stream TV
+A Multimodal Streaming Application.
+
+
+
+## Desktop Server
+
+## Android Client
