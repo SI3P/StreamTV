@@ -10,11 +10,10 @@ A Multimodal Streaming Application.
 
 The Multimodal Server Architecture takes multimodal inputs and merge them into a semantic frame using different grammars:
 
-- fusion Agent controls the life cycle of modalities and realizes the multimodal presentation
-- each modality recognizes and interprets the input and notify the semantic information 
-- semantic features are placed into a buffer periodically checked by a monitor
+- The interpreter controls the life cycle of each modality and realizes the multimodal fusion
+- Each mode recognizes the input signals and notifies the results through an event
+- The recognized sequences are placed in a multidimensional stream to be integrated into a single multimodal frame
 
-<img src="screenshot/server_arch.jpg?raw=true" height="200"/>
 
  The application receives the frames and generates a feedback for the user.
  
