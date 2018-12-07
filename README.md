@@ -18,7 +18,7 @@ The Multimodal Server Architecture takes multimodal inputs and merge them into a
   
 <img src="screenshot/server.jpg?raw=true" height="200"/>
  
-### Speech Recognition
+### Speech recognition
 Recognizes utterances using a vocabulary and a grammar that allow to build complex commands. It makes use of a probabilistic model and speech pattern representations in the form of statistical models (HMM's).
 
 #### <a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj184Tb347fAhV9AxAIHespAdEQFjAAegQIBxAB&url=http%3A%2F%2Fcmusphinx.github.io%2Fwiki%2Ftutorialsphinx4%2F&usg=AOvVaw2l0Xwk5SxF7nmOmLPsNobO">Sphinx4</a>
@@ -27,7 +27,7 @@ LiveSpeechRecognizer returns recognition results such as recognized utterance, l
 
 <img src="screenshot/jsgf.png" height="100"/>
 
-### Face Recognition
+### Face recognition
 
 Returns a boolean value representing the active presence of at least one user, determined by taking into account the number of faces detected and the state of the eyes:
 
@@ -38,7 +38,7 @@ Returns a boolean value representing the active presence of at least one user, d
 
 <img src="screenshot/face.jpg?raw=true" height="200"/>
 
-### Gesture Recognition
+### Gesture recognition
 1. Apply an Haar-cascade classifier and threshold image in YCrCb color space.
 2. Find the convex hull: the smallest convex set that contains the contour points.
 3. Compare the convex hull polygon with the contour to identify the convexity defects.
@@ -63,6 +63,10 @@ From points to pixels:
 
 <img src="https://latex.codecogs.com/gif.latex?\tan&space;(2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" title="\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" />
 
-<a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/index.html">References</a>
+References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui055/index.html">Hand and Finger Detection - Dr. Andrew Davison</a>
+
+### Motion recognition
+
+### Multimodal fusion
 
 ## Client (Android)
