@@ -31,7 +31,7 @@ LiveSpeechRecognizer returns recognition results such as recognized utterance, l
 
 Returns a boolean value representing the active presence of at least one user, determined by taking into account the number of faces detected and the state of the eyes:
 
-1. Transform the image to grayscale format and apply Haar-cascade classifier (<a href="https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework">Viola - Jones object detection framework</a>).
+1. Transform the image to grayscale format and apply Haar-cascade classifier (<a target="_blank" href="https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework">Viola - Jones object detection framework</a>).
 2. Clip and filter regions of interest, coloring pixels white if brightness is greater than a threshold.
 3. Erosion + dilation to remove discontinuous white areas.
 4. If the white area exceeds 70% of the boundary then the eye is open. Confidence = Max(%L,%R).
@@ -63,6 +63,6 @@ From points to pixels:
 
 <img src="https://latex.codecogs.com/gif.latex?\tan&space;(2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" title="\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" />
 
-<a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/index.html">references</a>
+<a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/index.html">References</a>
 
 ## Client (Android)
