@@ -49,8 +49,9 @@ Returns a boolean value representing the active presence of at least one user, d
 Moment M expresses how a force F operates at some distance d along a rigid bar from a fixed fulcrum: 
 
 <img src="https://latex.codecogs.com/gif.latex?M=F\cdot&space;d" title="M=F\cdot d" />
-My=mx   Mx=my
+
 My = m1x1 + m2x2 + ... mnxn
+
 Mx = m1y1 + m2y2 + ... mnyn
 
 <img src="https://latex.codecogs.com/gif.latex?C(entroid)&space;=&space;(\frac{My}{m},\frac{Mx}{m})" title="C(entroid) = (\frac{My}{m},\frac{Mx}{m})" />
