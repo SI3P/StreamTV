@@ -1,5 +1,9 @@
 # Stream TV
-A Multimodal Streaming Application.
+A Multimodal Streaming Application:
+- play a video stream;
+- manage a play-list with your smartphone;
+- control the player with speech, gestures and gesticulations;
+- configure input modalities.
 
 <img src="screenshot/stv.jpg?raw=true" height="300"/>
 
