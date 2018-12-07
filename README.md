@@ -54,8 +54,8 @@ C(entroid) = (\frac{My}{m},\frac{Mx}{m})
 
 From points to pixels:
 
-$$m(p,q) = \sum_{i=1}^{n}I(x,y)x^{p}y^{q}})$$
-$$COG = \left(\frac{m(1,0)}{m(0,0)};\frac{m(0,1)}{m(0,0)}\right)$$
-$$\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}$$
+$m(p,q) = \sum_{i=1}^{n}I(x,y)x^{p}y^{q}})$
+$COG = \left(\frac{m(1,0)}{m(0,0)};\frac{m(0,1)}{m(0,0)}\right)$
+$\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}$
 
 ## Client (Android)
