@@ -7,7 +7,6 @@ A Multimodal Streaming Application:
 
 <img src="screenshot/stv.jpg?raw=true" height="300"/>
 
-
 ## Server (Desktop)
 
 The Multimodal Server Architecture takes multimodal inputs and merge them into a semantic frame using different grammars.
@@ -22,7 +21,7 @@ The Multimodal Server Architecture takes multimodal inputs and merge them into a
 ### Speech Recognition
 Recognizes utterances using a vocabulary and a grammar that allow to build complex commands. It makes use of a probabilistic model and speech pattern representations in the form of statistical models (HMM's).
 
-#### Sphinx4
+#### <a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj184Tb347fAhV9AxAIHespAdEQFjAAegQIBxAB&url=http%3A%2F%2Fcmusphinx.github.io%2Fwiki%2Ftutorialsphinx4%2F&usg=AOvVaw2l0Xwk5SxF7nmOmLPsNobO">Sphinx4</a>
 A pure Java speech recognition library that provides a quick and easy API to convert the speech recordings into text. 
 LiveSpeechRecognizer returns recognition results such as recognized utterance, list of words with time stamps, recognition lattice and confidence values. The words contained in the hypothesis with the highest probability are evaluated in chronological order to rebuild the full command.
 
@@ -50,9 +49,9 @@ Moment M expresses how a force F operates at some distance d along a rigid bar f
 
 <img src="https://latex.codecogs.com/gif.latex?M=F\cdot&space;d" title="M=F\cdot d" />
 
-My = m1x1 + m2x2 + ... mnxn
+<img src="https://latex.codecogs.com/gif.latex?My&space;=&space;m1x1&space;&plus;&space;m2x2&space;&plus;&space;...&space;mnxn" title="My = m1x1 + m2x2 + ... mnxn" />
 
-Mx = m1y1 + m2y2 + ... mnyn
+<img src="https://latex.codecogs.com/gif.latex?Mx&space;=&space;m1y1&space;&plus;&space;m2y2&space;&plus;&space;...&space;mnyn" title="Mx = m1y1 + m2y2 + ... mnyn" />
 
 <img src="https://latex.codecogs.com/gif.latex?C(entroid)&space;=&space;(\frac{My}{m},\frac{Mx}{m})" title="C(entroid) = (\frac{My}{m},\frac{Mx}{m})" />
 
@@ -63,5 +62,7 @@ From points to pixels:
 <img src="https://latex.codecogs.com/gif.latex?COG&space;=&space;\left(\frac{m(1,0)}{m(0,0)};\frac{m(0,1)}{m(0,0)}\right)" title="COG = \left(\frac{m(1,0)}{m(0,0)};\frac{m(0,1)}{m(0,0)}\right)" />
 
 <img src="https://latex.codecogs.com/gif.latex?\tan&space;(2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" title="\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" />
+
+<a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/index.html">references</a>
 
 ## Client (Android)
