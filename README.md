@@ -10,12 +10,12 @@ A Multimodal Streaming Application:
 
 ## Server (Desktop)
 
-The Multimodal Server Architecture takes multimodal inputs and merge them into a semantic frame using different grammars:
+The Multimodal Server Architecture takes multimodal inputs and merge them into a semantic frame using different grammars.
 
-- the interpreter controls the life cycle of each modality and realizes the multimodal fusion;
-- each mode recognizes the input signals and notifies the results through an event;
-- the recognized sequences are placed in a multidimensional stream to be integrated into a single multimodal frame;
-- the application receives the frames and generates a feedback for the user.
+- The interpreter controls the life cycle of each modality and realizes the multimodal fusion.
+- Each mode recognizes the input signals and notifies the results through an event.
+- The recognized sequences are placed in a multidimensional stream to be integrated into a single multimodal frame.
+- The application receives the frames and generates a feedback for the user.
   
 <img src="screenshot/server.jpg?raw=true" height="200"/>
  
@@ -32,13 +32,29 @@ LiveSpeechRecognizer returns recognition results such as recognized utterance, l
 
 Returns a boolean value representing the active presence of at least one user, determined by taking into account the number of faces detected and the state of the eyes:
 
-- transform the image to grayscale format and apply Haar-cascade classifier (<a href="https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework">Viola - Jones object detection framework</a>)
-- clip and filter regions of interest, coloring pixels white if brightness is greater than a threshold
-- erosion + dilation to remove discontinuous white areas
-- if the white area exceeds 70% of the boundary then the eye is open. Confidence = Max(%L,%R)
+1. Transform the image to grayscale format and apply Haar-cascade classifier (<a href="https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework">Viola - Jones object detection framework</a>).
+2. Clip and filter regions of interest, coloring pixels white if brightness is greater than a threshold.
+3. Erosion + dilation to remove discontinuous white areas.
+4. If the white area exceeds 70% of the boundary then the eye is open. Confidence = Max(%L,%R).
 
-<img src="screenshot/face.jpg?raw=true" height="200"/>
+![](https://github.com/SI3P/StreamTV/blob/master/screenshot/face.jpg)
 
 ### Gesture Recognition
+1. Apply an Haar-cascade classifier and threshold image in YCrCb color space.
+2. Find the convex hull: the smallest convex set that contains the contour points.
+3. Compare the convex hull polygon with the contour to identify the convexity defects.
+4. Discard points with either shallow depths or too wide angle.
+
+#### COG (Center of Gravity)
+Moment M expresses how a force F operates at some distance d along a rigid bar from a fixed fulcrum: 
+M=F\cdot d    My=mx   Mx=my
+My = m1x1 + m2x2 + ... mnxn
+Mx = m1y1 + m2y2 + ... mnyn
+C(entroid) = (\frac{My}{m},\frac{Mx}{m})
+
+From points to pixels:
+m(p,q) = \sum_{i=1}^{n}I(x,y)x^{p}y^{q}})
+COG = \left(\frac{m(1,0)}{m(0,0)};\frac{m(0,1)}{m(0,0)}\right)
+\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}
 
 ## Client (Android)
