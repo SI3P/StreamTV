@@ -19,7 +19,12 @@ The Multimodal Server Architecture takes multimodal inputs and merge them into a
   
 <img src="screenshot/server.jpg?raw=true" height="200"/>
  
-### Speech Recognition
+### Speech Recognition (Sphinx4)
+
+A pure Java speech recognition library that provides a quick and easy API to convert the speech recordings into text. 
+LiveSpeechRecognizer returns recognition results such as recognized utterance, list of words with time stamps, recognition lattice and confidence values. The words contained in the hypothesis with the highest probability are evaluated in chronological order to rebuild the full command.
+
+<img src="screenshot/jsf.jpg" height="100"/>
 
 ### Face Recognition
 
