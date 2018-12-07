@@ -37,7 +37,7 @@ Returns a boolean value representing the active presence of at least one user, d
 3. Erosion + dilation to remove discontinuous white areas.
 4. If the white area exceeds 70% of the boundary then the eye is open. Confidence = Max(%L,%R).
 
-![](https://github.com/SI3P/StreamTV/blob/master/screenshot/face.jpg)
+<img src="screenshot/face.jpg?raw=true" height="200"/>
 
 ### Gesture Recognition
 1. Apply an Haar-cascade classifier and threshold image in YCrCb color space.
@@ -53,7 +53,7 @@ Mx = m1y1 + m2y2 + ... mnyn
 C(entroid) = (\frac{My}{m},\frac{Mx}{m})
 
 From points to pixels:
-m(p,q) = \sum_{i=1}^{n}I(x,y)x^{p}y^{q}})
+$$m(p,q) = \sum_{i=1}^{n}I(x,y)x^{p}y^{q}})$$
 COG = \left(\frac{m(1,0)}{m(0,0)};\frac{m(0,1)}{m(0,0)}\right)
 \tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}
 
