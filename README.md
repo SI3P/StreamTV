@@ -84,10 +84,10 @@ References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui055
 References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui03/index.html">Motion Detection - Dr. Andrew Davison</a>
 
 ### Multimodal fusion
-- <b>Complementarity</b>: the speech and gesture modalities can be used simultaneously (sequential & synergistic).
-- <b>Specialization</b>: modalities are also specialized on different types of information.
-- <b>Redundancy</b>: Cooperation between modalities to speed up the interaction.
-- <b>Equivalence</b>: Users can choose which modes to use.
+- <i>Complementarity</i>: the speech and gesture modalities can be used simultaneously (sequential & synergistic).
+- <i>Specialization</i>:  modalities are also specialized on different types of information.
+- <i>Redundancy</i>:      cooperation between modalities to speed up the interaction.
+- <i>Equivalence</i>:     users can choose which modes to use.
 
 <img src="screenshot/fusion.jpg?raw=true" width="250"/>
 
@@ -97,14 +97,14 @@ Analyze the multidimensional stream according to the order imposed by the size o
 <img src="screenshot/linearization.jpg?raw=true" width="500"/>
 
 #### Multimodal parser
-<b>Chomsky normal form</b>
+<b>Chomsky normal form:</b>
 1. remove useless productions;
 2. remove unit productions;
 3. remove multiple productions;
 4. review semantic rules.
 
-<b>CYK (Cocke–Younger–Kasami) alghoritm</b>
-1. Sentence recognition;
+<b>CYK (Cocke–Younger–Kasami) alghoritm:</b>
+1. sentence recognition;
 2. generation of derivation tree;
 3. semantic rules application.
 
