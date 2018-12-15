@@ -87,7 +87,7 @@ References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui03/
 
 #### Linearization
 
-Analyze the multidimensional stream according to the order imposed by the size of the unimodal streams. The longest and temporally valid sequence is linearly combined with those that fall into the time window: [Sentence.Start, Sentence.End + Delta(integration)].
+Analyze the multidimensional stream according to the order imposed by the size of the unimodal streams. The longest and temporally valid sequence is linearly combined with those that fall in the time window: [Sentence.Start, Sentence.End + Delta(integration)].
 
 <img src="screenshot/linearization.jpg?raw=true" width="500"/>
 
