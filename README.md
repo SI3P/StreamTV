@@ -84,17 +84,28 @@ References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui055
 References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui03/index.html">Motion Detection - Dr. Andrew Davison</a>
 
 ### Multimodal fusion
-- Complementarity: the speech and gesture modalities can be used simultaneously (sequential & synergistic.
-- Specialization: modalities are also specialized on different types of information.
-- Redundancy: Cooperation between modalities to speed up the interaction.
-- Equivalence: Users can choose which modes to use.
+- <b>Complementarity</b>: the speech and gesture modalities can be used simultaneously (sequential & synergistic).
+- <b>Specialization</b>: modalities are also specialized on different types of information.
+- <b>Redundancy</b>: Cooperation between modalities to speed up the interaction.
+- <b>Equivalence</b>: Users can choose which modes to use.
 
 <img src="screenshot/fusion.jpg?raw=true" width="250"/>
 
 #### Linearization
-
 Analyze the multidimensional stream according to the order imposed by the size of the unimodal streams. The longest and temporally valid sequence is linearly combined with those that fall in the time window: [Sentence.Start, Sentence.End + Delta(integration)].
 
 <img src="screenshot/linearization.jpg?raw=true" width="500"/>
+
+#### Multimodal parser
+<b>Chomsky normal form</b>
+1. remove useless productions;
+2. remove unit productions;
+3. remove multiple productions;
+4. review semantic rules.
+
+<b>CYK (Cocke–Younger–Kasami) alghoritm</b>
+1. Sentence recognition;
+2. generation of derivation tree;
+3. semantic rules application.
 
 ## Client (Android)
