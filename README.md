@@ -97,13 +97,13 @@ Analyze the multidimensional stream according to the order imposed by the size o
 <img src="screenshot/linearization.jpg?raw=true" width="500"/>
 
 #### Multimodal parser
-<b>Chomsky normal form:</b>
+<i>Chomsky normal form:</i>
 1. remove useless productions;
 2. remove unit productions;
 3. remove multiple productions;
 4. review semantic rules.
 
-<b>CYK (Cocke–Younger–Kasami) alghoritm:</b>
+<i>CYK (Cocke–Younger–Kasami) alghoritm:</i>
 1. sentence recognition;
 2. generation of derivation tree;
 3. semantic rules application.
