@@ -70,8 +70,8 @@ point -> pixel:
 References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui055/index.html">Hand and Finger Detection - Dr. Andrew Davison</a>
 
 #### Label tips
-Index range: 60°  ~ 120°
-Thumb range: 120° ~ 200°
+- <b>Index</b> range: 60°  ~ 120°
+- <b>Thumb</b> range: 120° ~ 200°
 
 ### Motion recognition (optical flow)
 
@@ -84,5 +84,11 @@ Thumb range: 120° ~ 200°
 References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui03/index.html">Motion Detection - Dr. Andrew Davison</a>
 
 ### Multimodal fusion
+
+#### Linearization
+
+Analyze the multidimensional stream according to the order imposed by the size of the unimodal streams. The longest and temporally valid sequence is linearly combined with those that fall into the time window: [Sentence.Start, Sentence.End + Delta(integration)].
+
+<img src="screenshot/linearization.jpg?raw=true" width="500"/>
 
 ## Client (Android)
