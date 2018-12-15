@@ -46,6 +46,8 @@ Returns a boolean value representing the active presence of at least one user, d
 3. Compare the convex hull polygon with the contour to identify the convexity defects.
 4. Discard points with either shallow depths or too wide angle.
 
+<img src="screenshot/gesture.jpg?raw=true" height="200"/>
+
 #### COG (Center of Gravity)
 Moment M expresses how a force F operates at some distance d along a rigid bar from a fixed fulcrum: 
 
