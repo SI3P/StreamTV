@@ -7,7 +7,7 @@ Stream TV is a multimodal application that allows you to play and control a netw
 - Control the player with speech, gestures and gesticulations.
 - Configure input modalities.
 
-<img src="screenshot/stv.jpg?raw=true" width="500"/>
+<img src="screenshot/stv.jpg?raw=true" width="400"/>
 
 ## Server (Desktop)
 
@@ -68,6 +68,10 @@ point -> pixel:
 <img src="https://latex.codecogs.com/gif.latex?\tan&space;(2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" title="\tan (2\theta)=\frac{2m(1,1)}{m(2,0)-m(0,2)}" />
 
 References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui055/index.html">Hand and Finger Detection - Dr. Andrew Davison</a>
+
+#### Label tips
+Index range: 60°  ~ 120°
+Thumb range: 120° ~ 200°
 
 ### Motion recognition (optical flow)
 
