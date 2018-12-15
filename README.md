@@ -89,7 +89,7 @@ References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui03/
 - Redundancy: Cooperation between modalities to speed up the interaction.
 - Equivalence: Users can choose which modes to use.
 
-<img src="screenshot/fusion.jpg?raw=true" width="500"/>
+<img src="screenshot/fusion.jpg?raw=true" width="250"/>
 
 #### Linearization
 
