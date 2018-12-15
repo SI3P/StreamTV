@@ -84,6 +84,12 @@ References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui055
 References: <a target="_blank" href="http://fivedots.coe.psu.ac.th/~ad/jg/nui03/index.html">Motion Detection - Dr. Andrew Davison</a>
 
 ### Multimodal fusion
+- Complementarity: the speech and gesture modalities can be used simultaneously (sequential & synergistic.
+- Specialization: modalities are also specialized on different types of information.
+- Redundancy: Cooperation between modalities to speed up the interaction.
+- Equivalence: Users can choose which modes to use.
+
+<img src="screenshot/fusion.jpg?raw=true" width="500"/>
 
 #### Linearization
 
