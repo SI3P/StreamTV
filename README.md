@@ -7,7 +7,7 @@ Stream TV is a multimodal application that allows you to play and control a netw
 - Control the player with speech, gestures and gesticulations.
 - Configure input modalities.
 
-<img src="screenshot/stv.jpg?raw=true" height="300"/>
+<img src="screenshot/stv.jpg?raw=true" width="500"/>
 
 ## Server (Desktop)
 
@@ -18,7 +18,7 @@ The Multimodal Server Architecture takes multimodal inputs and merge them into a
 - The recognized sequences are placed in a multidimensional stream to be integrated into a single multimodal frame.
 - The application receives the frames and generates a feedback for the user.
   
-<img src="screenshot/server.jpg?raw=true" height="200"/>
+<img src="screenshot/server.jpg?raw=true" width="500"/>
  
 ### Speech recognition
 Recognizes utterances using a vocabulary and a grammar that allow to build complex commands. It makes use of a probabilistic model and speech pattern representations in the form of statistical models (HMM's).
@@ -27,7 +27,7 @@ Recognizes utterances using a vocabulary and a grammar that allow to build compl
 A pure Java speech recognition library that provides a quick and easy API to convert the speech recordings into text. 
 LiveSpeechRecognizer returns recognition results such as recognized utterance, list of words with time stamps, recognition lattice and confidence values. The words contained in the hypothesis with the highest probability are evaluated in chronological order to rebuild the full command.
 
-<img src="screenshot/jsgf.png" width="400"/>
+<img src="screenshot/jsgf.png" width="500"/>
 
 ### Face recognition
 
@@ -38,7 +38,7 @@ Returns a boolean value representing the active presence of at least one user, d
 3. Erosion + dilation to remove discontinuous white areas.
 4. If the white area exceeds 70% of the boundary then the eye is open. Confidence = Max(%L,%R).
 
-<img src="screenshot/face.jpg?raw=true" width="400"/>
+<img src="screenshot/face.jpg?raw=true" width="500"/>
 
 ### Gesture recognition
 1. Apply an Haar-cascade classifier and threshold image in YCrCb color space.
@@ -46,7 +46,7 @@ Returns a boolean value representing the active presence of at least one user, d
 3. Compare the convex hull polygon with the contour to identify the convexity defects.
 4. Discard points with either shallow depths or too wide angle.
 
-<img src="screenshot/gesture.jpg?raw=true" width="400"/>
+<img src="screenshot/gesture.jpg?raw=true" width="500"/>
 
 #### COG (Center of Gravity)
 Moment M expresses how a force F operates at some distance d along a rigid bar from a fixed fulcrum: 
