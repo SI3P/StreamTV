@@ -27,7 +27,7 @@ Recognizes utterances using a vocabulary and a grammar that allow to build compl
 A pure Java speech recognition library that provides a quick and easy API to convert the speech recordings into text. 
 LiveSpeechRecognizer returns recognition results such as recognized utterance, list of words with time stamps, recognition lattice and confidence values. The words contained in the hypothesis with the highest probability are evaluated in chronological order to rebuild the full command.
 
-<img src="screenshot/jsgf.png" height="100"/>
+<img src="screenshot/jsgf.png" width="400"/>
 
 ### Face recognition
 
@@ -38,7 +38,7 @@ Returns a boolean value representing the active presence of at least one user, d
 3. Erosion + dilation to remove discontinuous white areas.
 4. If the white area exceeds 70% of the boundary then the eye is open. Confidence = Max(%L,%R).
 
-<img src="screenshot/face.jpg?raw=true" height="200"/>
+<img src="screenshot/face.jpg?raw=true" width="400"/>
 
 ### Gesture recognition
 1. Apply an Haar-cascade classifier and threshold image in YCrCb color space.
@@ -46,7 +46,7 @@ Returns a boolean value representing the active presence of at least one user, d
 3. Compare the convex hull polygon with the contour to identify the convexity defects.
 4. Discard points with either shallow depths or too wide angle.
 
-<img src="screenshot/gesture.jpg?raw=true" height="200"/>
+<img src="screenshot/gesture.jpg?raw=true" width="400"/>
 
 #### COG (Center of Gravity)
 Moment M expresses how a force F operates at some distance d along a rigid bar from a fixed fulcrum: 
